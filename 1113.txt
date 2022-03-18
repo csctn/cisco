@@ -1,0 +1,259 @@
+An administrator wants to create four subnetworks from the network address 192.168.1.0/24. What is the network address and subnet mask of the second useable subnet?
+   - [ subnetwork 192.168.1.64 ]
+
+How many bits must be borrowed from the host portion of an address to accommodate a router with five connected networks?
+   - [ three ]
+
+How many host addresses are available on the 192.168.10.128/26 network?
+   - [ 62 ]
+
+Match the subnetwork to a host address that would be included within the subnetwork. (Not all options are used.)
+   192.168.1.32/27 -> 192.168.1.48
+   192.168.1.64/27 -> 192.168.1.68
+   192.168.1.96/27 -> 192.168.1.121
+
+How many host addresses are available on the network 172.16.128.0 with a subnet mask of 255.255.252.0?
+   - [ 1022  ]
+
+Match each IPv4 address to the appropriate address category. (Not all options are used.)
+   192.168.100.161/25 -> host address
+   203.0.113.100/24   -> host address
+   ------------------    -----------------
+   192.168.1.191/26   -> broadcast address
+   10.0.0.159/27      -> broadcast address
+   ------------------    -----------------
+   10.10.10.128/25    -> network address
+   172.110.12.64/28   -> network address
+
+What three blocks of addresses are defined by RFC 1918 for private network use? (Choose three.)
+   - [ 10.0.0.0/8  ]
+   - [ 172.16.0.0/12  ]
+   - [ 192.168.0.0/16 ]
+
+Refer to the exhibit. An administrator must send a message to everyone on the router A network. What is the broadcast address for network 172.16.16.0/22?
+   - [ 172.16.19.255 ]
+
+A site administrator has been told that a particular network at the site must accommodate 126 hosts. Which subnet mask would be used that contains the required number of host bits?
+   - [ 255.255.255.128 ]
+
+Refer to the exhibit. Considering the addresses already used and having to remain within the 10.16.10.0/24 network range, which subnet address could be assigned to the network containing 25 hosts?
+   - [ 10.16.10.64/27 ]
+
+What is the usable number of host IP addresses on a network that has a /26 mask?
+   - [ 62 ]
+
+Which address prefix range is reserved for IPv4 multicast?
+   - [ 224.0.0.0 – 239.255.255.255 ]
+
+Refer to the exhibit. Match the network with the correct IP address and prefix that will satisfy the usable host addressing requirements for each network.
+   Network A -> 192.168.0.128/25
+   Network B -> 192.168.0.0/26
+   Network C -> 192.168.0.96/27
+   Network D -> 192.168.0.80/30
+
+A high school in New York (school A) is using videoconferencing technology to establish student interactions with another high school (school B) in Russia. The videoconferencing is conducted between two end devices through the Internet. The network administrator of school A configures the end device with the IP address 209.165.201.10. The administrator sends a request for the IP address for the end device in school B and the response is 192.168.25.10. Neither school is using a VPN. The administrator knows immediately that this IP will not work. Why?
+   - [ This is a private IP address. ]
+
+Which three addresses are valid public addresses? (Choose three.)
+   - [ 198.133.219.17 ]
+   - [ 128.107.12.117 ]
+   - [ 64.104.78.227 ]
+
+A message is sent to all hosts on a remote network. Which type of message is it?
+   - [ directed broadcast ]
+
+A company has a network address of 192.168.1.64 with a subnet mask of 255.255.255.192. The company wants to create two subnetworks that would contain 10 hosts and 18 hosts respectively. Which two networks would achieve that? (Choose two.)
+   - [ 192.168.1.64/27 ]
+   - [ 192.168.1.96/28 ]
+
+Which address is a valid IPv6 link-local unicast address?
+   - [ FE80::1:4545:6578:ABC1 ]
+
+Which of these addresses is the shortest abbreviation for the IP address:
+   - [ 3FFE:1044:0:0:AB::57 ]
+
+A network administrator has received the IPv6 prefix 2001:DB8::/48 for subnetting. Assuming the administrator does not subnet into the interface ID portion of the address space, how many subnets can the administrator create from the /48 prefix?
+   - [ 65536 ]
+
+Given IPv6 address prefix 2001:db8::/48, what will be the last subnet that is created if the subnet prefix is changed to /52?
+   - [ 2001:db8:0:f000::/52 ]
+
+Consider the following range of addresses:
+   2001:0DB8:BC15:00A0:0000::
+   2001:0DB8:BC15:00A1:0000::
+   2001:0DB8:BC15:00A2:0000::
+   ...
+   2001:0DB8:BC15:00AF:0000::
+
+   [ The prefix-length for the range of addresses is /60 ]
+
+What type of IPv6 address is FE80::1?
+   - [ link-local ]
+
+Refer to the exhibit. A company is deploying an IPv6 addressing scheme for its network. The company design document indicates that the subnet portion of the IPv6 addresses is used for the new hierarchical network design, with the site subsection to represent multiple geographical sites of the company, the sub-site section to represent multiple campuses at each site, and the subnet section to indicate each network segment separated by routers. With such a scheme, what is the maximum number of subnets achieved per sub-site?
+   - [ 16 ]
+
+What is used in the EUI-64 process to create an IPv6 interface ID on an IPv6 enabled interface?
+   - [ the MAC address of the IPv6 enabled interface ]
+
+What is the prefix for the host address 2001:DB8:BC15:A:12AB::1/64?
+   - [ 2001:DB8:BC15:A ]
+
+An IPv6 enabled device sends a data packet with the destination address of FF02::1. What is the target of this packet?​
+   - [ all IPv6 enabled devices on the local link​ or network ]
+
+Match the IPv6 address with the IPv6 address type. (Not all options are used.)
+   2001:DB8::BAF:3F57:FE94 -> global unicast
+   FF02::1                 -> all node multicast
+   ::1                     -> loopback
+   FF02::1:FFAE:F85F       -> solicited node multicast
+
+Which IPv6 prefix is reserved for communication between devices on the same link?
+   - [ FE80::/10 ]
+
+Which type of IPv6 address refers to any unicast address that is assigned to multiple hosts?
+   - [ anycast ]
+
+What are two types of IPv6 unicast addresses? (Choose two.)
+   - [ loopback  ]
+   - [ link-local ]
+
+Which service provides dynamic global IPv6 addressing to end devices without using a server that keeps a record of available IPv6 addresses?
+   - [ SLAAC ]
+
+Which protocol supports Stateless Address Autoconfiguration (SLAAC) for dynamic assignment of IPv6 addresses to a host?
+   - [ ICMPv6 ]
+
+Three methods allow IPv6 and IPv4 to co-exist. Match each method with its description. (Not all options are used.)
+   The IPv4 packets and IPv6 packets coexist in the same network -> dual-stack
+   The IPv6 packet is transported inside an IPv4 packet          -> tunneling
+   IPv6 packets are converted into IPv4 packets, and vice versa  -> translation
+
+A technician uses the ping 127.0.0.1 command. What is the technician testing?
+   - [ the TCP/IP stack on a network host ]
+
+Refer to the exhibit. An administrator is trying to troubleshoot connectivity between PC1 and PC2 and uses the tracert command from PC1 to do it. Based on the displayed output, where should the administrator begin troubleshooting?
+   - [ R1 ]
+
+Which protocol is used by the traceroute command to send and receive echo-requests and echo-replies?
+   - [ ICMP ]
+
+Which ICMPv6 message is sent when the IPv6 hop limit field of a packet is decremented to zero and the packet cannot be forwarded?
+   - [ time exceeded ]
+
+A user executes a traceroute over IPv6. At what point would a router in the path to the destination device drop the packet?
+   - [ when the value of the Hop Limit field reaches zero ]
+
+What is the purpose of ICMP messages?
+   - [ to provide feedback of IP packet transmissions ]
+
+What source IP address does a router use by default when the traceroute command is issued?
+   - [ the IP address of the outbound interface ]
+
+Match each description with an appropriate IP address. (Not all options are used.)
+   a private address       -> 172.19.20.5
+   a loopback address      -> 127.0.0.1
+   an experimental address -> 240.2.6.255
+   a TEST-NET address      -> 192.0.2.123
+   a link-local address    -> 169.254.1.5
+
+What is the prefix length notation for the subnet mask 255.255.255.224?
+   - [ /27 ]
+
+Which subnet would include the address 192.168.1.96 as a usable host address?
+   - [ 192.168.1.64/26 ]
+
+Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.
+   - [ 2001:DB8:1:1::1 ]
+   - [ 2001:DB8:1:2::1 ]
+   - [ 2001:DB8:1:3::2 ]
+
+A host is transmitting a broadcast. Which host or hosts will receive it?
+   - [ all hosts in the same subnet ]
+
+A host is transmitting a unicast. Which host or hosts will receive it?
+   - [ one specific host ]
+
+A host is transmitting a unicast. Which host or hosts will receive it?
+   - [ one specific host ]
+
+A host is transmitting a multicast. Which host or hosts will receive it?
+   - [ a specially defined group of hosts ]
+
+A host is transmitting a multicast. Which host or hosts will receive it?
+   - [ a specially defined group of hosts ]
+
+A host is transmitting a multicast. Which host or hosts will receive it?
+   - [ a specially defined group of hosts ]
+
+A host is transmitting a multicast. Which host or hosts will receive it?
+   - [ a specially defined group of hosts ]
+
+A host is transmitting a multicast. Which host or hosts will receive it?
+   - [ a specially defined group of hosts ]
+
+A host is transmitting a broadcast. Which host or hosts will receive it?
+   - [ all hosts in the same subnet ]
+
+A host is transmitting a broadcast. Which host or hosts will receive it?
+   - [ all hosts in the same subnet ]
+
+Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?
+   - [ 2001:db8::a0b0:8:1 ]
+
+Which is the compressed format of the IPv6 address fe80:09ea:0000:2200:0000:0000:0fe0:0290?
+   - [ fe80:9ea:0:2200::fe0:290 ]
+
+Which is the compressed format of the IPv6 address 2002:0042:0010:c400:0000:0000:0000:0909?
+   - [ 2002:42:10:c400::909 ]
+
+Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0ab8:0001:0000:1000?
+   - [ 2001:db8::ab8:1:0:1000 ]
+
+Which is the compressed format of the IPv6 address 2002:0420:00c4:1008:0025:0190:0000:0990?
+   - [ 2002:420:c4:1008:25:190::990 ]
+
+Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?
+   - [ 2001:db8::a0b0:8:1 ]
+
+Which is the compressed format of the IPv6 address fe80:0000:0000:0000:0220:0b3f:f0e0:0029?
+   - [ fe80::220:b3f:f0e0:29 ]
+
+Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?
+   - [ 2001:db8::a0b0:8:1 ]
+
+Which is the compressed format of the IPv6 address 2002:0042:0010:c400:0000:0000:0000:0909?
+   - [ 2002:42:10:c400::909 ]
+
+Which is the compressed format of the IPv6 address fe80:09ea:0000:2200:0000:0000:0fe0:0290?
+   - [ fe80:9ea:0:2200::fe0:290 ]
+
+A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 2. What does this code represent?
+   - [ beyond scope of the source address ]
+
+A user issues a ping 192.135.250.103 command and receives a response that includes a code of 1. What does this code represent?
+   - [ host unreachable ]
+
+A user issues a ping fe80:65ab:dcc1::100 command and receives a response that includes a code of 3. What does this code represent?
+   - [ address unreachable ]
+
+A user issues a ping 10.10.14.67 command and receives a response that includes a code of 0. What does this code represent?
+   - [ network unreachable ]
+
+A user issues a ping fe80:65ab:dcc1::100 command and receives a response that includes a code of 4. What does this code represent?
+   - [ port unreachable ]
+
+A user issues a ping 198.133.219.8 command and receives a response that includes a code of 0. What does this code represent?
+   - [ network unreachable ]
+
+A user issues a ping 2001:db8:3040:114::88 command and receives a response that includes a code of 4. What does this code represent?
+   - [ port unreachable ]
+
+A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 2. What does this code represent?
+   - [ beyond scope of the source address ]
+
+A user issues a ping 192.135.250.103 command and receives a response that includes a code of 1. What does this code represent?
+   - [ host unreachable ]
+
+A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 3. What does this code represent?
+   - [ address unreachable ]
